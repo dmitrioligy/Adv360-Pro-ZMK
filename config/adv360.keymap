@@ -64,7 +64,7 @@
             >;
         };
 
-        layer_SYMBOL_LEFT {
+        layer_SYMBOL_BRCKT {
             bindings = <
  &trans           &trans     &trans         &trans      &trans  &trans            &trans                                                  &trans  &trans                &trans                 &trans  &trans  &trans  &trans
  &trans           &trans     &trans         &trans      &trans  &trans            &trans                                                  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans  &trans  &trans
