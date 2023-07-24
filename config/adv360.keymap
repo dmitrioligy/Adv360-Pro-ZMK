@@ -36,21 +36,21 @@
 
         default_layer {
             bindings = <
-     &none     &kp N1     &kp N2    &kp N3         &kp N4  &kp N5               &none                                                                &none  &kp N6        &kp N7     &kp N8     &kp N9          &kp N0      &to 5
+     &none     &kp N1     &kp N2    &kp N3         &kp N4  &kp N5               &none                                                                &none  &kp N6        &kp N7     &kp N8     &kp N9          &kp N0     &tog 5
    &kp ESC      &kp Q      &kp W     &kp E          &kp R   &kp T               &none                                                                &none   &kp Y         &kp U      &kp I      &kp O           &kp P      &none
    &kp TAB      &kp A      &kp S     &kp D          &kp F   &kp G               &none  &kp LCTRL  &kp LGUI                  &kp LALT  &kp RCTRL      &none   &kp H         &kp J      &kp K      &kp L        &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                    &mo 1                     &mo 3                         &kp N         &kp M  &kp COMMA    &kp DOT    &kp KP_EQUAL  &kp RSHFT
+ &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                    &mo 1                     &mo 2                         &kp N         &kp M  &kp COMMA    &kp DOT    &kp KP_EQUAL  &kp RSHFT
      &none  &kp TILDE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BSPC    &kp DEL     &mo 2                     &mo 4  &kp SPACE  &kp ENTER          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE     &trans
             >;
         };
 
         layer_NUM___MOVE {
             bindings = <
- &trans           &trans           &trans           &trans           &trans  &trans            &trans                                                  &trans  &trans       &trans    &trans         &trans  &trans  &trans
- &trans           &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans            &trans                                                  &trans  &trans  &kp PAGE_UP    &kp UP  &kp PAGE_DOWN  &trans  &trans
- &trans  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
- &trans           &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans                            &trans                  &trans                  &trans     &kp HOME    &trans        &kp END  &trans  &trans
- &trans           &trans           &trans           &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans               &trans    &trans         &trans  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans  &trans            &trans                                                  &trans  &trans       &trans    &trans         &trans  &trans  &trans
+ &trans        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans            &trans                                                  &trans  &trans  &kp PAGE_UP    &kp UP  &kp PAGE_DOWN  &trans  &trans
+ &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+ &trans        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                            &trans                  &trans                  &trans     &kp HOME    &trans        &kp END  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans               &trans    &trans         &trans  &trans  &trans
             >;
         };
 
@@ -66,11 +66,11 @@
 
         layer_SYMBOL_BRCKT {
             bindings = <
- &trans           &trans     &trans         &trans      &trans  &trans            &trans                                                  &trans  &trans                &trans                 &trans  &trans  &trans  &trans
- &trans           &trans     &trans         &trans      &trans  &trans            &trans                                                  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans  &trans  &trans
- &trans  &kp EXCLAMATION     &kp AT      &kp POUND  &kp DOLLAR  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans  &trans  &trans
- &trans      &kp PERCENT  &kp CARET  &kp AMPERSAND    &kp STAR  &trans                            &trans                  &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
- &trans           &trans     &trans         &trans      &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                        &trans                 &trans  &trans  &trans  &trans
+ &trans           &trans     &trans         &trans      &trans  &trans            &trans                                                  &trans  &trans           &trans                 &trans             &trans   &trans  &trans
+ &trans           &kp F1     &kp F2         &kp F3      &kp F4  &kp F5            &kp F6                                                  &kp F7  &kp F8           &kp F9                &kp F10            &kp F11  &kp F12  &trans
+ &trans  &kp EXCLAMATION     &kp AT      &kp POUND  &kp DOLLAR  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &trans  &trans
+ &trans      &kp PERCENT  &kp CARET  &kp AMPERSAND    &kp STAR  &trans                            &trans                  &trans                  &trans  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET   &trans  &trans
+ &trans           &trans     &trans         &trans      &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                   &trans                 &trans             &trans   &trans  &trans
             >;
         };
 
