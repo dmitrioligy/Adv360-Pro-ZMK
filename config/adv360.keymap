@@ -39,21 +39,21 @@
 
         default_layer {
             bindings = <
-     &none     &kp N1     &kp N2    &kp N3         &kp N4  &kp N5               &none                                                                             &none  &kp N6        &kp N7     &kp N8     &kp N9          &kp N0     &tog 5
-   &kp ESC      &kp Q      &kp W     &kp E          &kp R   &kp T               &none                                                                             &none   &kp Y         &kp U      &kp I      &kp O           &kp P      &none
-   &kp TAB      &kp A      &kp S     &kp D          &kp F   &kp G               &none  &kp LCTRL        &kp LGUI                         &kp LALT  &kp RCTRL      &none   &kp H         &kp J      &kp K      &kp L        &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                          &mo 1                            &mo 3                         &kp N         &kp M  &kp COMMA    &kp DOT       &kp EQUAL  &kp RSHFT
-     &none  &kp GRAVE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BSPC    &kp DEL  &kp LEFT_SHIFT                  &kp RIGHT_SHIFT  &kp SPACE  &kp ENTER          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE      &none
+     &none     &kp N1     &kp N2    &kp N3         &kp N4  &kp N5               &none                                                                             &none  &kp N6        &kp N7     &kp N8     &kp N9          &kp N0            &tog 5
+   &kp ESC      &kp Q      &kp W     &kp E          &kp R   &kp T               &none                                                                             &none   &kp Y         &kp U      &kp I      &kp O           &kp P            &trans
+   &kp TAB      &kp A      &kp S     &kp D          &kp F   &kp G               &none  &kp LCTRL        &kp LGUI                         &kp LALT  &kp RCTRL      &none   &kp H         &kp J      &kp K      &kp L        &kp SEMI         &kp ENTER
+ &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                          &mo 1                            &mo 3                         &kp N         &kp M  &kp COMMA    &kp DOT       &kp EQUAL  &kp SINGLE_QUOTE
+     &none  &kp GRAVE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BSPC    &kp DEL  &kp LEFT_SHIFT                  &kp RIGHT_SHIFT  &kp SPACE  &kp ENTER          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE             &none
             >;
         };
 
         layer_NUM___MOVE {
             bindings = <
- &trans        &trans        &trans        &trans        &trans  &trans            &trans                                                  &trans  &trans       &trans    &trans         &trans  &trans  &trans
- &trans        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans                                                  &trans  &trans  &kp PAGE_UP    &kp UP  &kp PAGE_DOWN  &trans  &trans
- &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
- &trans        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                            &trans                  &trans                  &trans     &kp HOME    &trans        &kp END  &trans  &trans
-  &none        &trans        &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans               &trans    &trans         &trans  &trans   &none
+ &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans            &trans       &trans    &trans         &trans             &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans            &trans  &kp PAGE_UP    &kp UP  &kp PAGE_DOWN             &trans  &trans
+ &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_ctrl_left     &kp LEFT  &kp DOWN      &kp RIGHT  &macro_ctrl_right  &trans
+ &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                            &trans                  &trans                            &trans     &kp HOME    &trans        &kp END             &trans  &trans
+  &none        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                         &trans    &trans         &trans             &trans   &none
             >;
         };
 
