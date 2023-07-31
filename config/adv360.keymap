@@ -43,7 +43,7 @@
  &macro_shift_tab      &kp Q      &kp W     &kp E          &kp R   &kp T                    &none                                                                            &none   &kp Y         &kp U      &kp I      &kp O           &kp P             &none
           &kp TAB      &kp A      &kp S     &kp D          &kp F   &kp G                    &none  &kp LCTRL  &kp LCMD                  &kp LEFT_GUI  &kp LEFT_CONTROL       &none   &kp H         &kp J      &kp K      &kp L        &kp SEMI         &kp ENTER
         &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                         &mo 2                        &trans                                 &kp N         &kp M  &kp COMMA    &kp DOT       &kp EQUAL  &kp SINGLE_QUOTE
-            &none  &kp GRAVE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BACKSPACE      &mo 1   &kp ESC                        &trans         &kp SPACE  &kp DELETE          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE             &none
+            &none  &kp GRAVE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BACKSPACE      &mo 1   &kp ESC                  &kp LEFT_ALT         &kp SPACE  &kp DELETE          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE             &none
             >;
         };
 
