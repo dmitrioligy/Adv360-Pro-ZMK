@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-           &none          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                   &trans                                                                             &bt BT_NXT  &kp N6                  &kp N7                       &kp N8              &kp N9                       &kp N0            &tog 4
-         &kp ESC  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt NUMBER_9 T                   &trans                                                                             &bl BL_INC   &kp Y                   &kp U                        &kp I               &kp O                        &kp P             &none
- &mt LS(TAB) TAB  &mt NUMBER_5 A  &mt NUMBER_6 S  &mt NUMBER_7 D  &mt NUMBER_8 F  &mt NUMBER_0 G                   &trans  &kp LCTRL        &kp LCMD                  &kp LEFT_GUI  &kp LEFT_CONTROL  &bl BL_DEC   &kp H        &mt LEFT_BRACE J            &mt RIGHT_BRACE K  &mt LEFT_BRACKET L  &mt RIGHT_BRACKET SEMICOLON         &kp ENTER
-       &kp LSHFT           &kp Z           &kp X           &kp C           &kp V           &kp B                                               &mo 2                           &mt                                 &kp N  &mt LEFT_PARENTHESIS M  &mt RIGHT_PARENTHESIS COMMA             &kp DOT                    &kp EQUAL  &kp SINGLE_QUOTE
-           &none       &kp GRAVE       &kp SLASH        &kp PIPE   &kp BACKSLASH                            &kp BACKSPACE      &mo 1  &kp LEFT_SHIFT                  &kp LEFT_ALT         &kp SPACE  &kp DELETE                    &kp QUESTION                     &kp PLUS           &kp MINUS               &kp UNDERSCORE             &none
+           &none     &kp N1     &kp N2    &kp N3         &kp N4  &kp N5                   &trans                                                                             &bt BT_NXT  &kp N6        &kp N7     &kp N8     &kp N9          &kp N0            &tog 4
+         &kp ESC      &kp Q      &kp W     &kp E          &kp R   &kp T                   &trans                                                                             &bl BL_INC   &kp Y         &kp U      &kp I      &kp O           &kp P             &none
+ &mt LS(TAB) TAB      &kp A      &kp S     &kp D          &kp F   &kp G                   &trans  &kp LCTRL        &kp LCMD                  &kp LEFT_GUI  &kp LEFT_CONTROL  &bl BL_DEC   &kp H         &kp J      &kp K      &kp L   &kp SEMICOLON         &kp ENTER
+       &kp LSHFT      &kp Z      &kp X     &kp C          &kp V   &kp B                                               &mo 2                           &mt                                 &kp N         &kp M  &kp COMMA    &kp DOT       &kp EQUAL  &kp SINGLE_QUOTE
+           &none  &kp GRAVE  &kp SLASH  &kp PIPE  &kp BACKSLASH                    &kp BACKSPACE      &mo 1  &kp LEFT_SHIFT                  &kp LEFT_ALT         &kp SPACE  &kp DELETE          &kp QUESTION   &kp PLUS  &kp MINUS  &kp UNDERSCORE             &none
             >;
         };
 
